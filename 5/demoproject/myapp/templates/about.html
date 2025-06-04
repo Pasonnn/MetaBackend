@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <h1 style="text-align: center; color: #333;">About</h1>
+    <p>{{about}}</p>
+    <img src="{% static 'img/about.png' %}" alt="About">
+{% endblock %}
